@@ -7,5 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 public class SchoolController {
 
+    public String getName(){
+        return "hello";
+    }
+
 
 }
